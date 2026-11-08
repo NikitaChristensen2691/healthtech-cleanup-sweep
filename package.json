@@ -1,0 +1,17 @@
+{
+  "name": "healthtech-cleanup-sweep",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/healthtech_sweep.test.ts",
+    "start": "node --experimental-strip-types src/healthtech_sweep.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.3"
+  }
+}
